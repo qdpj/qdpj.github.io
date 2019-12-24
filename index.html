@@ -13,6 +13,12 @@
 		
 		
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+		<script>
+			function move_to_message(){
+				alert("该功能尚未实现，请移步留言板。")
+			}
+		</script>
 	</head>
 	<body class="is-preload">
 		<!-- Sidebar -->
@@ -146,11 +152,13 @@
 											</div>
 										</div>
 										<ul class="actions">
-											<li><a href="" class="button submit">发送消息</a></li>
-											<li><a href="" class="button submit">前往留言板</a></li>
-											<li><a href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes" class="button submit">使用QQ联系</a></li>
+											<li><button onclick="move_to_message()">发送消息</button></li>
+											
 										</ul>
 									</form>
+									<a href="elements.html" class="button submit">前往留言板</a>
+									<a href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes" class="button submit">使用QQ联系</a>
+									<a href="" class="button submit">假装还有个按钮</a>
 								</section>
 								<section>
 									<ul class="contact">
@@ -190,7 +198,8 @@
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://www.duh.ink">DUH.INK</a></li>
+						<li>&copy; Untitled. All rights reserved.</li>
+						<li>Design: <a href="http://www.duh.ink">DUH.INK</a></li>
 					</ul>
 				</div>
 			</footer>
@@ -203,6 +212,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+				
 	</body>
 </html>
